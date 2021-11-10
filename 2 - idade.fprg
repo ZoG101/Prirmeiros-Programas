@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Davi Campolina"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-27 03:39:55 "/>
+        <attribute name="created" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjAzOjI1OjE0ICI7Mjc2MQ=="/>
+        <attribute name="edited" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjAzOjM5OjU1ICI7MTsyODc5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome, idade" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;qual o seu sobrenome?&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Qual a sua idade?&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;O seu nome &#233;: &quot; &amp; nome &amp; sobrenome &amp; &quot; e a sua idade &#233;: &quot; &amp; idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

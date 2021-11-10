@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Davi Campolina"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-27 04:07:01 "/>
+        <attribute name="created" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjAzOjQwOjAyICI7Mjc1NQ=="/>
+        <attribute name="edited" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjA0OjA3OjAxICI7MTsyODY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome, idade" type="String" array="False" size=""/>
+            <declare name="Nota1, nota2, nota3, nota4, media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Agora, digite o seu sobrenome:&quot;" newline="True"/>
+            <input variable="sobrenome"/>
+            <output expression="&quot;Sua idade:&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Digite suas notas em mensagens separadas:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Ol&#225; aluno &quot; &amp; nome &amp; sobrenome &amp; &quot;com &quot; &amp; idade &amp; &quot; anos. &quot; &amp; &quot;Sua m&#233;dia final foi &quot; &amp; media &amp; &quot;, ent&#227;o meus parab&#233;ns, voc&#234; foi aprovado :)&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ol&#225; aluno &quot; &amp; nome &amp; sobrenome &amp; &quot;com &quot; &amp; idade &amp; &quot; anos. &quot; &amp; &quot;Sua m&#233;dia final foi &quot; &amp; media &amp; &quot; e infelizmente isso n&#227;o &#233; o suficiente para ser aprovado... Sinto muito :(&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

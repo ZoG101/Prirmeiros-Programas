@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Davi Campolina"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-27 03:06:21 "/>
+        <attribute name="created" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjAyOjQ3OjAxICI7Mjc2MA=="/>
+        <attribute name="edited" value="RGF2aSBDYW1wb2xpbmE7Wk9HOzIwMjEtMTAtMjc7IjAzOjA2OjIxICI7MTsyODY2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="janeiro, fevereiro, abril, mar&#231;o, media" type="Integer" array="False" size=""/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="abril"/>
+            <input variable="mar&#231;o"/>
+            <assign variable="media" expression="(janeiro+fevereiro+abril+mar&#231;o)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Seu abono ser&#225; de 10%&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Seu abono ser&#225; de 3%&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
