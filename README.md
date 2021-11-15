@@ -2,7 +2,7 @@
 
 ### Esses programas são extremamente simples, apenas para compreender a lógica de programação e seus conceitos básicos, e também, aprender mais sobre o GIT e o GITHUB.
 
-##Códigos GIT
+## Códigos GIT
 
 - git init
 
